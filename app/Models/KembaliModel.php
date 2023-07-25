@@ -12,4 +12,8 @@ class KembaliModel extends Model
     protected $useAutoIncrement = false;
     protected $allowedFields    = ['kd_buku', 'nm_buku', 'kembali', 'nis', 'kategori'];
 
+    public function getKembali($kd_buku)
+    {
+        return $this->where('kd_buku', $kd_buku)->first();
+    }
 }

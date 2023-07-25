@@ -11,5 +11,4 @@ class PinjamModel extends Model
     protected $primaryKey       = 'kd_buku';
     protected $useAutoIncrement = false;
     protected $allowedFields    = ['kd_buku', 'nm_buku', 'pinjam', 'nis', 'kategori'];
-
 }

@@ -31,9 +31,9 @@ class Home extends BaseController
                 'icon' => 'fa-solid fa-right-to-bracket',
                 'aktif' => '',
             ],
-            'riiwayat' =>[
+            'PostController' =>[
                 'title' => 'Riwayat Buku',
-                'link' => base_url() . 'riiwayat',
+                'link' => base_url() . 'PostController',
                 'icon' => 'fa-solid fa-calendar-days',
                 'aktif' => '',
             ],
